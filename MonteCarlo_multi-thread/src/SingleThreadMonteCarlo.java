@@ -2,7 +2,7 @@ import java.time.Duration;
         import java.time.Instant;
         import java.util.concurrent.*;
 
-public class MonteCarlo_MultiThread {
+public class SingleThreadMonteCarlo {
 
     public static void main(String[] args) {
         long total_points = 200_000;
